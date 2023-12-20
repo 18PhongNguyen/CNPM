@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="trangchu.css" />
+    <link rel="stylesheet" href="Register.css" />
+    <link rel="stylesheet" href="Login.css"/>
+    <!-- Liên kết đến file script -->
+    <script src="Register.js" defer></script>
+    <title>Your Online Store</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div id="TopFrame">
+        <div id="logo">
+          <img
+            width="100"
+            src="C:\Users\Admin\Downloads\Cmm Shop.png"
+            alt="Your Logo"
+          />
+        </div>
+        <form id="searchForm">
+          <input type="text" placeholder="Search products..." />
+          <button type="submit">Search</button>
+        </form>
+        <div id="userActions">
+          <a href="Login.html"><button id="login">Login</button></a>
+          <a href="Register.html"><button id="register">Register</button></a>
+          <button id="cartButton">Cart</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Back to Homepage Button -->
+    <div id="Back_to_Homepage">
+      <a href="index.html"><button id="Back">Homepage</button></a>
+    </div>
+
+    <!-- Registration Form -->
+    <div id="Fill">
+      <span id="Register_Info">THÔNG TIN ĐĂNG KÝ</span>
+      <div id="Containner">
+        <form action="#" method="post" id="form_dang_ky">
+          <table width="100%" border="0" cellpadding="0">
+            <tbody>
+              <tr>
+                <td align="right">
+                  Email 
+                  <span class="batbuoc">(*)</span>
+                </td>
+                <td><input class="input" id="email" type="text" /></td>
+              </tr>
+              <tr>
+                <td align="right">
+                  Mật khẩu 
+                  <span class="batbuoc">(*)</span>
+                </td>
+                <td>
+                  <input class="input password" id="password" type="password" />
+                </td>
+              </tr>
+              <tr>
+                <td align="right">
+                  Nhập lại mật khẩu 
+                  <span class="batbuoc">(*)</span>
+                </td>
+                <td>
+                  <input
+                    class="input password"
+                    id="password_retype"
+                    type="password"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td align="right" scope="co1" width="27%">
+                  Tên hiển thị 
+                  <span class="batbuoc">(*)</span>
+                </td>
+                <td scope="co1">
+                  <input class="input id" id="name" type="text" />
+                </td>
+              </tr>
+              <tr>
+                <td align="right">
+                  Điện thoại 
+                  <span class="batbuoc">(*)</span>
+                </td>
+                <td>
+                  <input class="input" id="dienthoai" type="text" />
+                </td>
+              </tr>
+              <tr>
+                <td align="right">Thông tin liên hệ </td>
+                <td>
+                  <textarea id="lienhe" class="input" rows></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>
+                  <input
+                    class="nut1"
+                    onclick="javascript:submit_form2('thongbao','button');"
+                    type="button"
+                    name="step1button"
+                    id="button"
+                    value="Đồng ý"
+                  />
+                  <input class="reset_soanlai" type="reset" value="Soạn lại" />
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>
+                  <div
+                    id="thongbao"
+                    style="padding: 10px; color: red; font-weight: bold"
+                  ></div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+    </div>
+    <div class="bocuc bocuc_288">
+        <div class="loprong">
+          <div class="padding">
+            <div class="bocuc bocuc_289_2">
+              <div class="loprong">
+                <div class="padding">
+                  <div>
+                    <div class="chinhsach_icon">
+                      <img
+                        class="attachment-full size-full"
+                        src="https://dienmay2.trustweb.vn/wp-content/uploads/2016/11/icon-policy-1.png"
+                        alt
+                        width="42"
+                        height="42"
+                      />
+                    </div>
+                    <div class="chinhsach_content">
+                      <p>GIAO HÀNG TRÊN TOÀN QUỐC</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="chinhsach_icon">
+                      <img
+                        class="attachment-full size-full"
+                        src="https://dienmay2.trustweb.vn/wp-content/uploads/2016/11/icon-policy-2.png"
+                        alt
+                        width="42"
+                        height="42"
+                      />
+                    </div>
+                    <div class="chinhsach_content">
+                      <p>BẢO HÀNH MỘT NĂM</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="chinhsach_icon">
+                      <img
+                        class="attachment-full size-full"
+                        src="https://dienmay2.trustweb.vn/wp-content/uploads/2016/11/icon-policy-3.png"
+                        alt
+                        width="42"
+                        height="42"
+                      />
+                    </div>
+                    <div class="chinhsach_content">
+                      <p>LÀM HỒ SƠ TRẢ GÓP TẠI NHÀ</p>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="chinhsach_icon">
+                      <img
+                        class="attachment-full size-full"
+                        src="https://dienmay2.trustweb.vn/wp-content/uploads/2016/11/icon-policy-4.png"
+                        alt
+                        width="42"
+                        height="42"
+                      />
+                    </div>
+                    <div class="chinhsach_content">
+                      <p>
+                        ĐIỆN THOẠI 0H00 - 23H59&nbsp;
+                        <strong>01.234.56789</strong>
+                      </p>
+                    </div>
+                  </div>
+                  <div>&nbsp;</div>
+                  <div>&nbsp;</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

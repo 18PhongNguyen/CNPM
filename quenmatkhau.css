@@ -1,0 +1,35 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #FFFFFF;
+  color: black;
+  line-height: 1.5;
+}
+
+.bocuc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  color: black;
+}
+
+.loprong {
+  padding: 20px;
+  border: 1px solid #cccccc;
+}
+
+.chinhsach_icon img {
+  width: 42px;
+  height: 42px;
+}
+
+.chinhsach_content {
+  margin-left: 10px;
+  color: black;
+}
+
+button.security-code-button{
+  background-color: #26AD26;
+  color: white;
+  margin-left: -620px;
+}

@@ -1,0 +1,191 @@
+body {
+  font-family: Arial, Heveltica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: white;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #1260cc;
+  padding: 0.5em;
+  text-align: center;
+}
+
+#TopFrame {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em; /* Add padding as needed */
+}
+
+/* Style the logo */
+#logo {
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+/* Style the search form */
+#searchForm {
+  padding: 9px;
+  display: flex;
+  align-items: center;
+}
+
+#searchForm input {
+  width: 400px;
+  height: 35px;
+  padding: 8px;
+  margin-right: 0.5px; /* Add margin between input and button */
+}
+
+#searchForm button {
+  width: 60px;
+  height: 30px;
+  background-color: #3d9970; /* Jade green color */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#userActions button {
+  background-color: #0074cc; /* Blue color */
+  color: white;
+  padding: 8px;
+  margin-left: 10px; /* Add margin between buttons */
+  border: none;
+  cursor: pointer;
+}
+
+
+/* Use grid for layout */
+.container {
+  display: grid;
+  max-width: 960px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 3fr; /* Divide into two columns */
+  grid-template-rows: 50px 50px auto; /* Divide into three rows */
+  grid-gap: 10px; /* Add gap between grid items */
+}
+
+#productSelectorFrame {
+  background-color: white;
+  height: 40px;
+  grid-column: 1 / 2; /* Span the first column */
+  grid-row: 1 / 2; /* Span the first row */
+}
+
+#productSelector {
+  width: 200px;
+  height: 40px;
+  text-align: left;
+  font-size: 30px;
+}
+
+#Goto {
+  background-color: white;
+  height: 40px;
+  grid-column: 2 / 3; /* Span the second column */
+  grid-row: 1 / 2; /* Span the first row */
+}
+
+#Goto ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right; /* Push the buttons to the right */
+}
+
+
+#Header{
+  color: black;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 30px
+}
+
+#Goto button {
+  background-color: #6bc406;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#Product {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+}
+
+li {
+  border: 1px solid lightblue;
+  text-align: center;
+}
+
+.noi_dung {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hinh_anh img {
+  max-width: 100%;
+  height: auto;
+}
+
+.tieu_de{
+  color: black;
+  margin: 10px;
+}
+
+.gia{
+  color: red;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#Goto li {
+  display: inline-block;
+  margin-left: 10px; /* Add margin between buttons */
+}
+
+#searchForm button:hover {
+  background-color: #e3b305; /* Darker shade on hover */
+}
+#userActions button:hover {
+  background-color: #005a9e; /* Darker shade on hover */
+}
+
+
+/* Use flexbox for layout*/
+
+.slide_show{
+  width: 100%;
+  height: 200px;
+  border: 1px solid black;
+  margin: 20px auto;
+}
+
+.main{
+  height: 80%;
+  margin-bottom: 20px;
+}
+
+.image{
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.image div{
+  flex: 1;
+}
+
+.image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}

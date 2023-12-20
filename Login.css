@@ -1,0 +1,41 @@
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #FFFFFF;
+  color: black;
+  line-height: 1.5;
+}
+
+.header_text{
+  color: black;
+  margin-left:220px;
+}
+
+.form_login_table{
+  margin: -10px;
+  float: left;
+  padding-top: 50px;
+  padding-left: 40px;
+  color: black;
+}
+
+.bocuc_288{
+  color: black;
+  float: right;
+  margin-top: -80px;
+  padding: 50px 40px 40px 40px;
+}
+
+.bocuc_289{
+  padding: 40px 40px 40px 40px;
+  margin-bottom: -10px;
+  border: 2px solid #C4C2C4;
+}
+.header{
+  font-weight: bold
+}
+
+.input_form_login{
+  width: 500px;
+  height: 28px;
+  font-size: 15px;
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="trangchu.css" />
+    <link rel="stylesheet" href="Register.css" />
+    <link rel="stylesheet" href="Login.css" />
+    <link rel="stylesheet" href="quenmatkhau.css" />
+    <title>Your Online Store</title>
+  </head>
+  <body>
+    <header>
+      <div id="TopFrame">
+        <!-- Logo -->
+        <div id="logo">
+          <img
+            width="100"
+            src="C:\Users\Admin\Downloads\Cmm Shop.png"
+            alt="Your Logo"
+          />
+        </div>
+
+        <!-- Search Form -->
+        <form id="searchForm">
+          <input type="text" placeholder="Search products..." />
+          <button type="submit">Search</button>
+        </form>
+
+        <!-- User Actions (Login, Register, Cart) -->
+        <div id="userActions">
+          <a href="Login.html"><button id="login">Login</button></a>
+          <a href="Register.html"><button id="register">Register</button></a>
+          <button id="cartButton">Cart</button>
+        </div>
+      </div>
+    </header>
+    <div id="Back_to_Homepage">
+      <a href="index.html"><button id="Back">Homepage</button></a>
+    </div>
+    <div class="bocuc bocuc_288">
+      <div class="loprong">
+        <div class="padding">
+          <div class="bocuc bocuc_289_3">
+            <div class="loprong">
+              <div class="padding">
+                <div>
+                  <div class="chinhsach_icon">
+                    <img
+                      class="attachment-full size-full"
+                      src="https://dienmay2.trustweb.vn/wp-content/uploads/2016/11/icon-policy-1.png"
+                      alt
+                      width="42"
+                      height="42"
+                    />
+                  </div>
+                  <div class="chinhsach_content">
+                    <p>GIAO HÀNG TRÊN TOÀN QUỐC</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="chinhsach_icon">
+                    <img
+                      class="attachment-full size-full"
+                      src="https://dienmay2.trustweb.vn/wp-content/uploads/2016/11/icon-policy-2.png"
+                      alt
+                      width="42"
+                      height="42"
+                    />
+                  </div>
+                  <div class="chinhsach_content">
+                    <p>BẢO HÀNH MỘT NĂM</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="chinhsach_icon">
+                    <img
+                      class="attachment-full size-full"
+                      src="https://dienmay2.trustweb.vn/wp-content/uploads/2016/11/icon-policy-3.png"
+                      alt
+                      width="42"
+                      height="42"
+                    />
+                  </div>
+                  <div class="chinhsach_content">
+                    <p>LÀM HỒ SƠ TRẢ GÓP TẠI NHÀ</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="chinhsach_icon">
+                    <img
+                      class="attachment-full size-full"
+                      src="https://dienmay2.trustweb.vn/wp-content/uploads/2016/11/icon-policy-4.png"
+                      alt
+                      width="42"
+                      height="42"
+                    />
+                  </div>
+                  <div class="chinhsach_content">
+                    <p>
+                      ĐIỆN THOẠI 0H00 - 23H59&nbsp;
+                      <strong>01.234.56789</strong>
+                    </p>
+                  </div>
+                </div>
+                <div>&nbsp;</div>
+                <div>&nbsp;</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bocuc bocuc_287">
+      <div class="loprong">
+        <div class="padding">
+          <div class="bocuc bocuc_290">
+            <div class="loprong">
+              <div class="padding">
+                <div class="bocuc bocuc_291">
+                  <div class="boxgiua_wrap">
+                    <div class="header_layer_1">
+                      <div class="header_layer_2">
+                        <h2 class="header">
+                          <span><label>Lấy lại mật khẩu</label></span>
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="boxgiua_tren">
+                      <span><label></label></span>
+                    </div>
+                    <div class="boxgiua">
+                      <div class="boxgiua_lop1">
+                        <div class="boxgiua_lop2">
+                          <table
+                            width="100%"
+                            border="0"
+                            cellspacing="6"
+                            cellpadding="0"
+                            class="form_reset_password"
+                          >
+                            <tbody>
+                              <tr>
+                                <td colspan="2">
+                                  <h4>
+                                    Bạn vui lòng nhập email và mã số an toàn,
+                                    sau khi bạn nhập đúng, bạn vui lòng kiểm tra
+                                    email và làm theo hướng dẫn để lấy lại mật
+                                    khẩu
+                                  </h4>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width="150"><strong>Email</strong></td>
+                                <td>
+                                  <strong></strong
+                                  ><input
+                                    style="width: 220px"
+                                    type="text"
+                                    id="email"
+                                  />
+                                </td>
+                              </tr>
+                              <tr>
+                                <td><strong>Mã số an toàn</strong></td>
+                                <td>
+                                  <form
+                                    class="security-code-form"
+                                    id="captchaForm"
+                                  >
+                                    <input type="text" id="captcha" readonly />
+                                  </form>
+                               </td>
+                                 <td class="security-code-container">
+                                  <button
+                                    class="security-code-button"
+                                    onclick="generateAndDisplayCode()"
+                                  >
+                                    Get
+                                  </button>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>&nbsp;</td>
+                                <td>
+                                  <label>
+                                    <input
+                                      onclick="javascript:submit_form('loi_quenmk','nutquenmatkhau','modules/gianhang_thanhvien/xml_quenmatkhau.php?gh=642998','email,captcha');"
+                                      type="button"
+                                      id="nutquenmatkhau"
+                                      value="Đồng ý"
+                                    />
+                                  </label>
+                                  <p id="loi_quenmk"></p>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
